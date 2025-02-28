@@ -31,9 +31,9 @@ Wir werden die Tags immer klein schreiben.
 In der ersten Zeile einer HTML Datei befindet sich immer eine Zeile, welche beschreibt, um welchen Typ von Date es sich handelt.
 Dies ist der sogenannte Doctype.
 
-´´´html
+```html
 <!DOCTYPE html>
-´´´
+```
 
 Achte auf das Ausrufezeichen!
 Das "html" besagt, dass es sich um HTML-Code in der Version 5 handelt.
@@ -41,12 +41,12 @@ Das "html" besagt, dass es sich um HTML-Code in der Version 5 handelt.
 ### Die Seite (html)
 
 Das html Element beinhaltet den ganzen Inhalt deiner Seite und muss immer vorhanden sein.
-´´´html
+```html
 <!DOCTYPE html>
 <html>
   Hier kommt der Inhalt
 </html>
-´´´
+```
 
 Das öffnende Tag kommt immer direkt nach dem Doctype und das schließende Tag ist immer die letzte Zeile.
 
@@ -58,13 +58,13 @@ Das **head** Element beinhaltet den nicht sichtbaren Teil der Seite.
 Hier befinden sich Informationen zu deiner Seite.
 welche genau dies sind siehst du weiter unten.
 
-´´´html
+```html
 <!DOCTYPE html>
 <html>
   <head>
   </head>
 </html>
-´´´
+```
 
 ### Der Titel (titel)
 
@@ -72,14 +72,14 @@ Das **titel** Element dient dazu deiner Seite einen Namen zu geben.
 Dieses befindet sich im Kopf der Seite und somit im nicht sichtbaren Teil.
 Diese Information wird aber von deinem Browser benutzt, um zum Beispiel den Tab zu benennen.
 
-´´´html
+```html
 <!DOCTYPE html>
 <html>
   <head>
     <title>Mein Titel</title>
   </head>
 </html>
-´´´
+```
 
 Jede Internetseite muss einen Titel besitzen.
 
@@ -88,7 +88,7 @@ Jede Internetseite muss einen Titel besitzen.
 Das **body** Element ist der sichtbare Teil der Internetseite.
 Hier kommt der gesamte Inhalt, der angezeigt werden soll hinein.
 
-´´´html
+```html
 <!DOCTYPE html>
 <html>
   <head>
@@ -98,7 +98,7 @@ Hier kommt der gesamte Inhalt, der angezeigt werden soll hinein.
     Sichtbarer Teil der Internetseite.
   </body>
 </html>
-´´´
+```
 
 Dies ist das Grundgerüst einer HTML-Datei.
 Jedes dieser Elemente muss vorhanden sein!
