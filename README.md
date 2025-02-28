@@ -20,7 +20,7 @@ Es handelt sich hierbei um die sogenannten HTML-Elemente.
 
 Ein HTML-Element besteht in der Regel aus einem öffnendem Tag (opening tag), dem Inhalt und einem schließenden Tag (closing tag).
 Ein Tag ist ein Schlüsselwort, welches sich zwischen den Zeichen "<" und ">" befindet.
-Beim schließenden Tag steht vor dem Schlüsselwort noch ein Schrägstrich (slash) "/>".
+Beim schließenden Tag steht vor dem Schlüsselwort noch ein Schrägstrich (slash) "/".
 
 Beispiel: ´<html></html>´ Dies ist das html Element, welchs in diesem Fall keinen Inhalt hat.
 
