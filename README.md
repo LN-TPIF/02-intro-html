@@ -105,3 +105,28 @@ Jedes dieser Elemente muss vorhanden sein!
 
 📝Teste dies aus, indem du den obigen Code in den Notepad kopierst und die Datei als "index.html" abspeicherst.
 Achte darauf, dass es sich um eine HTML-Datei handelt und nicht um eine Textdatei!
+
+## Aufgaben
+
+Wir werden eine Internetseite schreiben, auf der sich ein Rezeptbuch befindet.
+Diese werden wir im Laufe der nächsten Aufgaben nach für nach aufbauen.
+
+ 1. Erstelle in diesem Repository die Datei **index.html** im Notepad.
+ 2. Erstelle in dieser die Grundstruktur einer Internetseite.
+ 3. Füge folgende Informationen hinzu:
+    - Der Inhalt der Internetseite ist auf Deutsch geschrieben,
+    - Der Titel lautet **TPIF - Cooks**,
+    - Der Zeichensatz der Datei ist UTF-8,
+    - Füge dich als Autor auf die Internetseite hinzu,
+    - Füge als Beschreibung folgendes hinzu: "Eine Sammlung leckerer Rezepte"
+    - Die Schlüsselwörter für die Internetseite sind folgende:
+        - rezepte,
+        - recipes,
+        - kochen,
+        - cooking
+ 4. Die Internetseite soll aussehen wie im folgenden Bild:
+    ![Finale Internetseite](rezeptbuch.png)
+
+    Nutze die Richtigen Elemente, für die Überschriften, sowie für den Text.
+ 6. Teste deine Internetseite im Browser deiner Wahl.
+ 7. Validiere deinen Code mithilfe des W3C Validators.
