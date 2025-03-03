@@ -103,10 +103,10 @@ Hier kommt der gesamte Inhalt, der angezeigt werden soll hinein.
 Dies ist das Grundgerüst einer HTML-Datei.
 Jedes dieser Elemente muss vorhanden sein!
 
-📝Teste dies aus, indem du den obigen Code in den Notepad kopierst und die Datei als "index.html" abspeicherst.
+✏️ Teste dies aus, indem du den obigen Code in den Notepad kopierst und die Datei als "index.html" abspeicherst.
 Achte darauf, dass es sich um eine HTML-Datei handelt und nicht um eine Textdatei!
 
-## Aufgaben
+## ✏️ Aufgaben
 
 Wir werden eine Internetseite schreiben, auf der sich ein Rezeptbuch befindet.
 Diese werden wir im Laufe der nächsten Aufgaben nach für nach aufbauen.
@@ -124,9 +124,11 @@ Diese werden wir im Laufe der nächsten Aufgaben nach für nach aufbauen.
         - recipes,
         - kochen,
         - cooking
- 4. Die Internetseite soll aussehen wie im folgenden Bild:
+ 4. Die Internetseite soll aussehen wie im folgenden Bild.
+    ℹ️ In der Datei **rezeptbuch.txt** findest du den gesamten sichtbaren Text.
+    
     ![Finale Internetseite](rezeptbuch.png)
 
     Nutze die Richtigen Elemente, für die Überschriften, sowie für den Text.
- 6. Teste deine Internetseite im Browser deiner Wahl.
- 7. Validiere deinen Code mithilfe des W3C Validators.
+ 5. Teste deine Internetseite im Browser deiner Wahl.
+ 6. Validiere deinen Code mithilfe des W3C Validators.
