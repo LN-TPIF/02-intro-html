@@ -106,6 +106,51 @@ Jedes dieser Elemente muss vorhanden sein!
 ✏️ Teste dies aus, indem du den obigen Code in den Notepad kopierst und die Datei als "index.html" abspeicherst.
 Achte darauf, dass es sich um eine HTML-Datei handelt und nicht um eine Textdatei!
 
+## Strukturierungselemente
+
+Wenn das Grundgerüst steht, kannst du innerhalb des body-Elementes soviel Text schreiben wie du möchtest.
+Dieser wird aber, komplett in einer Zeile angezeigt werden.
+Egal, wie viele Leerzeichen und Zeilenumbrüche du in deinem Code einfügst!
+
+Dies ist nützlich, da du somit deinen Code sauber formatiern kannst, ohne dass dies die Ausgabe beeinflusst.
+
+Um die Ausgabe zu strukturieren, werden wir die sogenannten Strukturierungselemente benutzen.
+
+### Gliederung
+
+Es ist möglich, ein HTML-Dokument zu gliedern, wie du dies vielleicht von einem Word-Dokument kennst.
+Dort nutzt du die Vormatvorlagen (Styles) **Heading1**, **Heading2**, ... um Überschriften zu erstellen, welche auch gleich eine Gliederung erstellen:
+
+![Gliederung in Word](styles-word.png)
+
+Auch im HTML kannst du Überschriften (Headings) und somit eine Gliederung erstellen.
+Dafür gibt es die **h1** bis **h6** Elemente.
+Das h1-Element ist das oberste Level und befindet sich immer nur einmal auf einer Internetseite.
+Heading Level sollen nicht übersprungen werden.
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mein Titel</title>
+  </head>
+  <body>
+    <h1>Beetles</h1>
+    <h2>External morphology</h2>
+    <h3>Head</h3>
+    <h4>Mouthparts</h4>
+    <h3>Thorax</h3>
+    <h4>Prothorax</h4>
+    <h4>Pterothorax</h4>
+  </body>
+</html>
+```
+Erzeugt folgende Ausgabe:
+
+![Beispiel Gliederung HTML](html-headings-example.png)
+
+ℹ️ Den Inhalt von einem Element schreiben wir, wenn er länger als eine Zeile ist, immer um zwei Leerzeichen weiter nach rechts, als die zugehörigen Tags.
+
 ## ✏️ Aufgaben
 
 Wir werden eine Internetseite schreiben, auf der sich ein Rezeptbuch befindet.
