@@ -124,7 +124,7 @@ Dort nutzt du die Vormatvorlagen (Styles) **Heading1**, **Heading2**, ... um Üb
 ![Gliederung in Word](styles-word.png)
 
 Auch im HTML kannst du Überschriften (Headings) und somit eine Gliederung erstellen.
-Dafür gibt es die **h1** bis **h6** Elemente.
+Dafür gibt es die Elemente **h1** bis **h6**.
 Das h1-Element ist das oberste Level und befindet sich immer nur einmal auf einer Internetseite.
 Heading Level sollen nicht übersprungen werden.
 
@@ -151,6 +151,36 @@ Erzeugt folgende Ausgabe:
 
 ℹ️ Den Inhalt von einem Element schreiben wir, wenn er länger als eine Zeile ist, immer um zwei Leerzeichen weiter nach rechts, als die zugehörigen Tags.
 
+### Absätze
+
+Um Text zu strukturieren, wird dieser in Absätzen zusammengefasst.
+In Word wird ein neuer Absatz ertellt, sobald du <kby>Enter</kbd> drückst.
+Wie wir oben gesehen haben, spielen Zeilenumbrüche in HTML allerdings keine Rolle.
+
+In HTML werden Absätze (Paragraph) mit dem **p** Element erstellt.
+Der gesamte Text, der sich zwischen den p-Tags befindet, stellt einen Absatz dar.
+Zwischen den einzelnen Absätzen wird ein Zeilenumbruch eingefügt.
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mein Titel</title>
+  </head>
+  <body>
+    <p>Erster Absatz</p>
+    <p>Zweiter Absatz</p>
+  </body>
+</html>
+```
+
+Erzeug folgende Ausgabe:
+
+![Beispiel Paragraphen HTML](html-paragraph-example.png)
+
+❗ Der Inhalt eines Abschnittes soll auch logisch zusammenhängen.
+
+
 ## ✏️ Aufgaben
 
 Wir werden eine Internetseite schreiben, auf der sich ein Rezeptbuch befindet.
@@ -170,10 +200,11 @@ Diese werden wir im Laufe der nächsten Aufgaben nach für nach aufbauen.
         - kochen,
         - cooking
  4. Die Internetseite soll aussehen wie im folgenden Bild.
+    
     ℹ️ In der Datei **rezeptbuch.txt** findest du den gesamten sichtbaren Text.
     
     ![Finale Internetseite](rezeptbuch.png)
 
     Nutze die Richtigen Elemente, für die Überschriften, sowie für den Text.
- 5. Teste deine Internetseite im Browser deiner Wahl.
- 6. Validiere deinen Code mithilfe des W3C Validators.
+ 6. Teste deine Internetseite im Browser deiner Wahl.
+ 7. Validiere deinen Code mithilfe des W3C Validators.
